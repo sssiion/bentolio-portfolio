@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: 'Gilroy', Arial, sans-serif;
+  background: #F9F1F0;
+  color: #000;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 32px;
+}
+.header {
+  background: #FADCD9;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 32px;
+  margin-bottom: 32px;
+}
+.logo {
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.nav a {
+  margin-left: 40px;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #000;
+}
+.slogan {
+  background: #FADCD9;
+  border-radius: 20px;
+  padding: 48px 32px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.slogan h1 {
+  font-size: 56px;
+  font-weight: 700;
+  margin: 0;
+}
+.flower-icon {
+  font-size: 64px;
+}
+.portrait {
+  background: #fff;
+  border-radius: 20px;
+  width: 330px;
+  height: 476px;
+  overflow: hidden;
+  margin: 0 auto 32px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about {
+  background: #FADCD9;
+  border-radius: 20px;
+  padding: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+.about-icon {
+  font-size: 38px;
+}
+.about p {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0;
+}
+.work {
+  background: #FADCD9;
+  border-radius: 20px;
+  padding: 32px;
+  margin-bottom: 32px;
+}
+.work-item {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.work-item:not(:last-child) {
+  border-bottom: 2px solid #F8AFA6;
+  padding-bottom: 8px;
+}
+.contact {
+  background: #F8AFA6;
+  border-radius: 20px;
+  padding: 32px;
+  margin-bottom: 32px;
+}
+.contact h2 {
+  font-size: 55px;
+  font-weight: 500;
+  margin: 0 0 16px 0;
+}
+.contact-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 300;
+}
+.arrow {
+  font-size: 32px;
+}
+.socials {
+  background: #FADCD9;
+  border-radius: 20px;
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 448px;
+  margin: 0 auto;
+}
+.social-link {
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+}
